@@ -1,8 +1,10 @@
 /* found the page-container and content-wrap code here: 
 https://medium.freecodecamp.org/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c */
 
+
 body {
     margin: 0 auto;
+    
 }
 
 #page-container {
@@ -51,6 +53,7 @@ header h1 {
 nav {
     float: right;
     font-family: 'Roboto Condensed', sans-serif;
+    
 }
 
 header a {
@@ -132,3 +135,81 @@ footer h6 {
 
 }
 
+@media only screen and (max-width: 980px) {
+    header, header div {
+        width: 100%;
+    }
+
+    section {
+        float: left;
+        margin-left: 20px;
+        width: 75%;
+        height: auto;
+
+    }
+
+    section div {
+        width: auto;
+    }
+
+    #profile-image {
+        scale: auto;
+        margin: inherit;
+    }
+
+    
+
+@media only screen and (max-width: 768px){
+    header, header div {
+        width: 100%;
+    }
+
+    section, section div {
+        height: auto;
+        width: auto;
+        margin: 40px;
+    }
+
+    #profile-image {
+        scale: auto;
+        margin: 0px;
+    }
+
+}
+
+@media only screen and (max-width: 640px){
+
+    header, header div, nav {
+        position: static;
+        width: 100%;
+        text-align: center;   
+    }
+
+    header h1 {
+        width: auto;
+        text-align: center;   
+    }
+
+    /* super can't figure out how to make the nav not overlap the section and also the name bar looks like garbage at 100% width, as does the profile image, so I made the aesthetic choice to leave them as-is. */
+
+     section, section div, {
+      width: auto;
+      height: auto;
+      margin: 40px;
+  }
+
+    #profile-image {
+        width: auto;
+        scale: auto;
+        margin: 0px;
+    }
+
+   
+    
+  
+
+  
+
+
+
+}
