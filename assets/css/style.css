@@ -157,6 +157,7 @@ footer h6 {
         margin: inherit;
     }
 
+}
     
 
 @media only screen and (max-width: 768px){
@@ -190,25 +191,18 @@ footer h6 {
         text-align: center;   
     }
 
-    /* super can't figure out how to make the nav not overlap the section and also the name bar looks like garbage at 100% width, as does the profile image, so I made the aesthetic choice to leave them as-is. */
-
-     section, section div, {
-      width: auto;
-      height: auto;
-      margin: 40px;
-  }
+  
+     section, section div {
+        width: auto;
+        height: auto;
+        margin: 40px;
+     }
 
     #profile-image {
         width: auto;
         scale: auto;
         margin: 0px;
     }
-
-   
-    
-  
-
-  
 
 
 

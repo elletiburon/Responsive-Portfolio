@@ -155,6 +155,101 @@ footer h6 {
     padding-top: 10px;
 }
 
+@media only screen and (max-width: 980px) {
+
+    header, header div {
+        width: 100%;
+    }
+
+    section, section #contact {
+        width: auto;
+        height: auto;
+        margin: 40px;
+    }
+
+    section #contact {
+        margin: 10px;
+    }
+
+    #name, #email, #message {
+        width: 100%;
+       }
+
+    form {
+        margin-right: 40px;
+       }
+   
+
+
+}
+    
+
+@media only screen and (max-width: 768px){
+    header, header div {
+        width: 100%;
+    }
+
+    section, section #contact {
+        width: auto;
+        height: auto;
+        margin: 40px;
+    }
+
+    section #contact {
+        margin: 10px;
+    }
+
+    #name, #email, #message {
+        width: 100%;
+       }
+
+    form {
+        margin-right: 40px;
+       }
+   
+
+   
+
+}
+
+@media only screen and (max-width: 640px){
+
+    header, header div, nav {
+        position: static;
+        width: 100%;
+        text-align: center;   
+    }
+
+    header h1 {
+        width: auto;
+        text-align: center;   
+    }
+
+    section, section #contact {
+        width: auto;
+        height: auto;
+        margin: 40px;
+    }
+
+    section #contact {
+        margin: 10px;
+    }
+
+    #name, #email, #message {
+        width: 100%;
+       }
+
+    form {
+        margin-right: 40px;
+       }
+   
+  
+     
+   
+
+
+
+}
 
 
 
