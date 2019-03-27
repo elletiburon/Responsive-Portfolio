@@ -177,3 +177,69 @@ footer h6 {
     margin: 0 auto;
     padding-top: 10px;
 }
+
+@media only screen and (max-width: 980px) {
+
+    header, header div {
+        width: 100%;
+    }
+
+    section, section #portfolio {
+        margin-left: 20px;
+        width: 55%;
+        height: auto;
+
+    }
+}
+@media only screen and (max-width: 768px){
+    header, header div {
+        width: 100%;
+    }
+
+    section, section #portfolio {
+        width: auto;
+        height: auto;
+        margin: 40px;
+    }
+
+
+
+}
+
+    @media only screen and (max-width: 640px){
+
+        header, header div, nav {
+            position: static;
+            width: 100%;
+            text-align: center;   
+
+        }
+ 
+        #projectboxes {
+            height: auto;
+            width: auto;
+            display: flex;
+            flex-flow: column;
+            justify-content: flex-start;
+        }
+
+        #project4, #project5 {
+            Position: relative;
+            height: 150px;
+            width: 200px;
+            margin: 10px;
+            padding-left: 20px;
+            padding-top: 10px;
+            text-align: center;
+        }
+
+       
+        section, section #portfolio {
+            width: auto;
+            height: auto;
+            margin: 40px;
+        }
+    }
+
+
+    

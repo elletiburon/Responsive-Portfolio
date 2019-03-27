@@ -162,9 +162,9 @@ footer h6 {
     }
 
     section, section #contact {
-        width: auto;
+        margin-left: 20px;
+        width: 55%;
         height: auto;
-        margin: 40px;
     }
 
     section #contact {
@@ -179,7 +179,6 @@ footer h6 {
         margin-right: 40px;
        }
    
-
 
 }
     
